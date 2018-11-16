@@ -1,0 +1,30 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="78a1554b-3b0c-4229-a147-5f6de1e79094" name="sibur" url="http://127.0.0.1">
+        <fileTransfer host="127.0.0.1" port="2222" privateKey="E:\Sites\sibur\.vagrant\machines\y2aa\virtualbox\private_key" rootFolder="/app" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="4ab75858-cbcf-4f1a-93cf-3ec093c8a21e" name="Ticken project" url="http://5.172.44.89">
+        <fileTransfer host="5.172.44.89" port="22" accessType="SFTP" username="ftp_ticken_de" password="dfcddfdcdff9df9edf99df8cdfc0df9e">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d117a24e-7171-4dcb-9792-230667a7bb31" name="ticken.nl" url="http://5.172.44.89">
+        <fileTransfer host="5.172.44.89" port="21" rootFolder="/development/ticken-nl">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
