@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5a8014dc-6548-43a0-b360-c6cdfa12b546" name="logistick-backend" url="http://logistick-backend.test">
+        <fileTransfer host="laravel" port="2222" privateKey="D:\projects\backend-logistics\laradock\workspace\insecure_id_rsa.ppk" rootFolder="/var/www" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
